@@ -1,81 +1,19 @@
 body {
-    padding: 0;
     margin: 0;
-    min-width: 100vw;
-    overflow-x: hidden;
-    background-image: url(background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    opacity: 1;
-}
-
-#description {
-    font-size: large;
-    padding: 10px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid white;
-}
-
-#form {
-    background-color: rgba(12, 11, 11, 0.5);
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 20px;
-}
-
-label {
-    padding: 10px 0px;
-    font-size: 20px;
-    color: white;
-    font-weight: 400;
-}
-
-#food {
-    padding-bottom: 0;
-}
-
-span {
     padding: 0;
-    margin-bottom: 10px;
-    color: white;
-    color: rgb(200, 200, 200);
+    background-image: url("bg.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
 
-input[type=radio] {
-    margin-left: 30px;
-}
-
-#lable-gender {
-    padding: 0;
-    color: rgb(200, 200, 200);
-    font-size: 16px;
-}
-
-.form-check {
-    margin-left: 30px;
-}
-
-#food-choise {
-    padding: 0;
-    font-size: 16px;
-}
-
-#list {
-    overflow-x: auto;
-    overflow-y: auto;
-}
-
-input,
-textarea {
-    background-color: whitesmoke;
-}
-
-#submit {
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 120px;
-    padding: 8px 15px;
-    color: black;
-    font-weight: bolder;
-    background-color: whitesmoke;
+h1 {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 128);
+    font-style: italic;
+    font-size: 80px;
+    text-shadow: 6px -4px 11px rgba(150, 150, 150, 1);
 }
